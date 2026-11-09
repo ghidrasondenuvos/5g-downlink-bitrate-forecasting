@@ -11,6 +11,7 @@ echo.
 
 if "%1"=="--help" goto HELP
 if "%1"=="-h" goto HELP
+if "%1"=="midterm" goto MIDTERM
 if "%1"=="verify" goto VERIFY
 if "%1"=="preprocess" goto PREPROCESS
 if "%1"=="ml" goto ML
@@ -42,6 +43,10 @@ echo     - Presentation Deck: presentation\Downlink_Bitrate_Forecasting_5G.pptx
 echo     - Visualizations:   results\figures\
 echo ==============================================================================
 pause
+exit /b 0
+
+:MIDTERM
+python scripts\run_midterm_40pct.py
 exit /b 0
 
 :PREPROCESS
@@ -87,6 +92,7 @@ exit /b 0
 :HELP
 echo Usage: run.bat [option]
 echo Options:
+echo   midterm       Runs ONLY the 40-50%% Intermediate Phase (Preprocess + XGBoost + SHAP + Midterm Slides)
 echo   (no option)   Runs complete pipeline end-to-end and verifies results
 echo   verify        Runs verification test suite
 echo   preprocess    Runs data cleaning, session-aware split and normalization
