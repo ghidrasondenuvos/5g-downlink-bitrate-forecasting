@@ -1,0 +1,94 @@
+{
+    "top_lagged_features": [
+        {
+            "feature": "UL_bitrate_t",
+            "mean_abs_shap": 6475.662109375
+        },
+        {
+            "feature": "UL_bitrate_t-1",
+            "mean_abs_shap": 891.1243896484375
+        },
+        {
+            "feature": "RSSI_t",
+            "mean_abs_shap": 632.0263671875
+        },
+        {
+            "feature": "UL_bitrate_t-2",
+            "mean_abs_shap": 597.8399047851562
+        },
+        {
+            "feature": "SNR_t",
+            "mean_abs_shap": 355.8420104980469
+        },
+        {
+            "feature": "UL_bitrate_t-8",
+            "mean_abs_shap": 269.1788635253906
+        },
+        {
+            "feature": "UL_bitrate_t-3",
+            "mean_abs_shap": 244.7646484375
+        },
+        {
+            "feature": "CQI_t",
+            "mean_abs_shap": 235.29193115234375
+        },
+        {
+            "feature": "UL_bitrate_t-9",
+            "mean_abs_shap": 234.97718811035156
+        },
+        {
+            "feature": "ServingCell_Distance_t",
+            "mean_abs_shap": 181.46823120117188
+        },
+        {
+            "feature": "UL_bitrate_t-4",
+            "mean_abs_shap": 172.81065368652344
+        },
+        {
+            "feature": "RSRQ_t",
+            "mean_abs_shap": 167.65377807617188
+        },
+        {
+            "feature": "Speed_t-1",
+            "mean_abs_shap": 153.56666564941406
+        },
+        {
+            "feature": "UL_bitrate_t-6",
+            "mean_abs_shap": 152.736328125
+        },
+        {
+            "feature": "Speed_t-9",
+            "mean_abs_shap": 132.12229919433594
+        },
+        {
+            "feature": "SNR_t-1",
+            "mean_abs_shap": 124.25196075439453
+        },
+        {
+            "feature": "UL_bitrate_t-7",
+            "mean_abs_shap": 110.76505279541016
+        },
+        {
+            "feature": "UL_bitrate_t-5",
+            "mean_abs_shap": 109.18624877929688
+        },
+        {
+            "feature": "Speed_t",
+            "mean_abs_shap": 102.22203826904297
+        },
+        {
+            "feature": "RSSI_t-3",
+            "mean_abs_shap": 97.63420867919922
+        }
+    ],
+    "base_kpi_importance_aggregate": {
+        "UL_bitrate": 9259.0458984375,
+        "RSSI": 1102.8992919921875,
+        "ServingCell_Distance": 764.355712890625,
+        "Speed": 754.8336791992188,
+        "SNR": 739.1890258789062,
+        "RSRQ": 565.7279052734375,
+        "CQI": 489.99822998046875,
+        "RSRP": 385.3274230957031
+    }
+}

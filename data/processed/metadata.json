@@ -1,0 +1,35 @@
+{
+    "total_traces": 135,
+    "total_samples": 174523,
+    "train_samples": 131370,
+    "test_samples": 43153,
+    "train_traces": 106,
+    "test_traces": 29,
+    "mobility_counts": {
+        "car": 75874,
+        "train": 38976,
+        "pedestrian": 33629,
+        "static": 15261,
+        "bus": 10783
+    },
+    "throughput_stats_kbps": {
+        "mean": 10822.324427152867,
+        "std": 14149.653859276495,
+        "min": 0.0,
+        "median": 5370.0,
+        "max": 173016.0,
+        "q25": 1386.0,
+        "q75": 14796.0
+    },
+    "numeric_features": [
+        "RSRP",
+        "RSRQ",
+        "SNR",
+        "CQI",
+        "RSSI",
+        "Speed",
+        "UL_bitrate",
+        "ServingCell_Distance"
+    ],
+    "target_column": "DL_bitrate"
+}

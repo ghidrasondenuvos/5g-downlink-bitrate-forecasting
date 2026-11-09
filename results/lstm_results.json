@@ -1,0 +1,11 @@
+{
+    "rmse": 14473.36,
+    "mae": 6935.72,
+    "mape": 3048.07,
+    "r2": 0.1015,
+    "infer_time_ms_per_sample": 0.1009,
+    "train_time_sec": 129.87,
+    "lookback": 64,
+    "horizon": 1,
+    "model": "LSTM (2-layer, 64 hidden)"
+}

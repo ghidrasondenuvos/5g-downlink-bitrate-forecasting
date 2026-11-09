@@ -1,0 +1,178 @@
+[
+    {
+        "rmse": 6443.14,
+        "mae": 3298.32,
+        "mape": 6839.13,
+        "r2": 0.8191,
+        "lookback": 5,
+        "horizon": 1,
+        "train_time_sec": 0.59,
+        "infer_time_ms_per_sample": 0.0006,
+        "num_features_in": 40
+    },
+    {
+        "rmse": 7603.29,
+        "mae": 4120.36,
+        "mape": 14766.7,
+        "r2": 0.7481,
+        "lookback": 5,
+        "horizon": 3,
+        "train_time_sec": 1.38,
+        "infer_time_ms_per_sample": 0.001,
+        "num_features_in": 40
+    },
+    {
+        "rmse": 8264.89,
+        "mae": 4581.98,
+        "mape": 23163.81,
+        "r2": 0.7025,
+        "lookback": 5,
+        "horizon": 5,
+        "train_time_sec": 0.97,
+        "infer_time_ms_per_sample": 0.0009,
+        "num_features_in": 40
+    },
+    {
+        "rmse": 8948.2,
+        "mae": 5026.15,
+        "mape": 22930.59,
+        "r2": 0.6515,
+        "lookback": 5,
+        "horizon": 10,
+        "train_time_sec": 1.02,
+        "infer_time_ms_per_sample": 0.0008,
+        "num_features_in": 40
+    },
+    {
+        "rmse": 6344.75,
+        "mae": 3275.46,
+        "mape": 5869.62,
+        "r2": 0.8247,
+        "lookback": 10,
+        "horizon": 1,
+        "train_time_sec": 1.3,
+        "infer_time_ms_per_sample": 0.0006,
+        "num_features_in": 80
+    },
+    {
+        "rmse": 7503.15,
+        "mae": 3997.99,
+        "mape": 11603.48,
+        "r2": 0.7548,
+        "lookback": 10,
+        "horizon": 3,
+        "train_time_sec": 2.58,
+        "infer_time_ms_per_sample": 0.0007,
+        "num_features_in": 80
+    },
+    {
+        "rmse": 7961.68,
+        "mae": 4345.59,
+        "mape": 16514.25,
+        "r2": 0.7241,
+        "lookback": 10,
+        "horizon": 5,
+        "train_time_sec": 1.35,
+        "infer_time_ms_per_sample": 0.0009,
+        "num_features_in": 80
+    },
+    {
+        "rmse": 9112.46,
+        "mae": 5111.83,
+        "mape": 23719.74,
+        "r2": 0.6391,
+        "lookback": 10,
+        "horizon": 10,
+        "train_time_sec": 1.23,
+        "infer_time_ms_per_sample": 0.0006,
+        "num_features_in": 80
+    },
+    {
+        "rmse": 6334.49,
+        "mae": 3279.33,
+        "mape": 6803.78,
+        "r2": 0.8257,
+        "lookback": 20,
+        "horizon": 1,
+        "train_time_sec": 2.04,
+        "infer_time_ms_per_sample": 0.0012,
+        "num_features_in": 160
+    },
+    {
+        "rmse": 7322.81,
+        "mae": 3974.25,
+        "mape": 12783.07,
+        "r2": 0.7672,
+        "lookback": 20,
+        "horizon": 3,
+        "train_time_sec": 2.12,
+        "infer_time_ms_per_sample": 0.0013,
+        "num_features_in": 160
+    },
+    {
+        "rmse": 7979.94,
+        "mae": 4359.93,
+        "mape": 16937.15,
+        "r2": 0.7238,
+        "lookback": 20,
+        "horizon": 5,
+        "train_time_sec": 3.06,
+        "infer_time_ms_per_sample": 0.0011,
+        "num_features_in": 160
+    },
+    {
+        "rmse": 8795.09,
+        "mae": 4922.86,
+        "mape": 21417.07,
+        "r2": 0.6653,
+        "lookback": 20,
+        "horizon": 10,
+        "train_time_sec": 2.42,
+        "infer_time_ms_per_sample": 0.0013,
+        "num_features_in": 160
+    },
+    {
+        "rmse": 6352.31,
+        "mae": 3255.53,
+        "mape": 5946.68,
+        "r2": 0.8255,
+        "lookback": 30,
+        "horizon": 1,
+        "train_time_sec": 3.36,
+        "infer_time_ms_per_sample": 0.0009,
+        "num_features_in": 240
+    },
+    {
+        "rmse": 7423.96,
+        "mae": 3952.57,
+        "mape": 10609.8,
+        "r2": 0.7618,
+        "lookback": 30,
+        "horizon": 3,
+        "train_time_sec": 3.24,
+        "infer_time_ms_per_sample": 0.0012,
+        "num_features_in": 240
+    },
+    {
+        "rmse": 7970.3,
+        "mae": 4337.05,
+        "mape": 15564.67,
+        "r2": 0.7256,
+        "lookback": 30,
+        "horizon": 5,
+        "train_time_sec": 3.14,
+        "infer_time_ms_per_sample": 0.0014,
+        "num_features_in": 240
+    },
+    {
+        "rmse": 8985.17,
+        "mae": 4977.16,
+        "mape": 20172.35,
+        "r2": 0.652,
+        "lookback": 30,
+        "horizon": 10,
+        "train_time_sec": 3.59,
+        "infer_time_ms_per_sample": 0.0014,
+        "num_features_in": 240
+    }
+]
