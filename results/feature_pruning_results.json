@@ -1,0 +1,74 @@
+[
+    {
+        "rmse": 6447.05,
+        "mae": 3330.95,
+        "mape": 5885.46,
+        "r2": 0.819,
+        "stage": "100% Features (8 KPIs)",
+        "num_kpis": 8,
+        "num_input_dims": 80,
+        "kept_kpis": [
+            "UL_bitrate",
+            "RSSI",
+            "ServingCell_Distance",
+            "Speed",
+            "SNR",
+            "RSRQ",
+            "CQI",
+            "RSRP"
+        ],
+        "train_time_sec": 0.57,
+        "infer_time_ms_per_sample": 0.00048
+    },
+    {
+        "rmse": 6425.95,
+        "mae": 3311.15,
+        "mape": 4940.46,
+        "r2": 0.8201,
+        "stage": "75% Features (6 KPIs)",
+        "num_kpis": 6,
+        "num_input_dims": 60,
+        "kept_kpis": [
+            "UL_bitrate",
+            "RSSI",
+            "ServingCell_Distance",
+            "Speed",
+            "SNR",
+            "RSRQ"
+        ],
+        "train_time_sec": 0.56,
+        "infer_time_ms_per_sample": 0.00029
+    },
+    {
+        "rmse": 6605.38,
+        "mae": 3349.36,
+        "mape": 5298.91,
+        "r2": 0.81,
+        "stage": "50% Features (4 KPIs)",
+        "num_kpis": 4,
+        "num_input_dims": 40,
+        "kept_kpis": [
+            "UL_bitrate",
+            "RSSI",
+            "ServingCell_Distance",
+            "Speed"
+        ],
+        "train_time_sec": 0.51,
+        "infer_time_ms_per_sample": 0.00049
+    },
+    {
+        "rmse": 6494.28,
+        "mae": 3313.23,
+        "mape": 5206.38,
+        "r2": 0.8163,
+        "stage": "25% Features (2 KPIs)",
+        "num_kpis": 2,
+        "num_input_dims": 20,
+        "kept_kpis": [
+            "UL_bitrate",
+            "RSSI"
+        ],
+        "train_time_sec": 0.41,
+        "infer_time_ms_per_sample": 0.00049
+    }
+]
